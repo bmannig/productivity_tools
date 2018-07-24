@@ -1,0 +1,34 @@
+# git und gitHub
+Codecademy 
+GitHub Guides
+Try Git tutorial
+Happy Git and GitHub for the useR
+
+nur was in staging area ist, wird wirklich weiterverfolgt durch version control / git
+mit 
+git add file
+wird es "gestaged", d.h. es wird "getrackt"
+alle änderungen in file werden mitgenommen, wenn wir commit machen
+das wird so gemacht: 
+
+git commit -m "was machen wir" 
+so wird local repository geändert 
+
+git status
+sagt uns, was los ist
+
+staging kann weggelassen werden, wenn file name bei commit angegeben wird:
+git commit -m "was machen wir" file
+
+git log file
+sagt was alles gemacht wurde 
+
+git push 
+schiebt alles auf github
+
+um local repository zu updaten (wichtig bei gruppen ding)
+git fetch (local repository)
+git merge (weiter zu staging dings und workdings)
+
+oder zusammen: git pull 
+
